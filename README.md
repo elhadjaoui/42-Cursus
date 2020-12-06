@@ -1,7 +1,7 @@
 # 42 Cursus
 ## Porjects done so far:
 
-Project | summary
+Project | Description
 ------- | -------
 [Libft](https://github.com/elhadjaoui/42-Cursus/tree/main/libft) | The aim of this project is to code a C library usual functions.
 [Get next line](https://github.com/elhadjaoui/42-Cursus/tree/main/get_next_line)| The aim of this project is to code a function that returns a line ending with a newline, read from a file descriptor.
