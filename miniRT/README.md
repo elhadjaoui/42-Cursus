@@ -1,11 +1,14 @@
 # miniRT
 ### how to run 
-> make re && ./miniRT Scene/.._rt [--save]
+> $ make re && ./miniRT Scene/.._rt [--save]
 
 ### Library used
 > -lmlx -framework OpenGL -framework AppKit
-> && 
-> libmlx.dylib
+ && 
+> minilibx_mms/libmlx.dylib
+
+### Norme 
+> $ make norme
 <p align="center">
   <img src="../images/cylinder.bmp" alt="cylinder" title="Screenshot">
 </p>
