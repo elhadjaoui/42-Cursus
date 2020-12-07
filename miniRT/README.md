@@ -22,6 +22,9 @@ and dont forget the mlx_get_screen_size(...) (available only in minilibx_mms/lib
 
 ### Norme 
 > $ make norme
+
+#
+
 <p align="center">
   <img src="../images/cylinder.bmp" alt="cylinder" title="Screenshot">
 </p>
