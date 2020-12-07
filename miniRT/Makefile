@@ -10,13 +10,11 @@ DIR_HEADERS =	./Headers/
 
 DIR_SRCS =		./Src/
 
-DIR_OBJS =		./
 
 
 LIBMLX =		-lmlx -framework OpenGL -framework AppKit libmlx.dylib
 
-				
-SAVE =			-fsanitize=address
+			
 
 SRC =			Intersection/cylinder_intersection.c\
 				Intersection/plane_intersection.c\
@@ -52,8 +50,6 @@ SRC =			Intersection/cylinder_intersection.c\
 				bitmap.c
 			
 SRCS =			$(addprefix $(DIR_SRCS), $(SRC)) minirt.c
-
-COMPIL =		$(FLAGS) $(SAVE)
 
 OBJS =			*.o
 

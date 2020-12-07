@@ -24,7 +24,7 @@ char		**ft_split(char const *s, char c);
 void		*ft_calloc(size_t count, size_t size);
 void		ft_bzero(void *s, size_t n);
 char		*ft_strdup(const char *s1);
-void		free_list(char **list);
+int			free_list(char **list);
 t_vector	invec(t_vector vec);
 size_t		len(const char *s);
 #endif

@@ -40,6 +40,11 @@ void	check_rt(char *s)
 {
 	int i;
 
+	if (cmp(s, ".rt") == 1)
+	{
+		ft_putstr_fd("Error\n'.rt' seems like a hidden file\n", 2);
+		exit(-1);
+	}
 	i = len(s);
 	if (!(s[i - 1] == 't') || !(s[i - 2] == 'r') || !(s[i - 3] == '.'))
 	{

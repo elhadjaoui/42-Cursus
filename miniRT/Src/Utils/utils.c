@@ -12,7 +12,7 @@
 
 #include "../../Headers/minirt.h"
 
-t_vector	g_vec;
+t_vector		g_vec;
 
 int				valid_single_int(char *s)
 {
@@ -59,17 +59,16 @@ t_rgb			check_rgb(char *s)
 	char	**sub;
 	t_rgb	color;
 
+	if (count_commas(s) != 2)
+		print_comma_error();
 	sub = ft_split(s, ',');
 	if (len_of(sub) != 3)
 	{
 		free_list(sub);
 		print_colorformat_error();
 	}
-	if (valid_int(sub) == -1)
-	{
-		free_list(sub);
+	if (valid_int(sub) == -1 && free_list(sub))
 		print_rgb_error();
-	}
 	color.r = ft_atoi(sub[0]);
 	color.g = ft_atoi(sub[1]);
 	color.b = ft_atoi(sub[2]);
@@ -88,6 +87,8 @@ t_vector		check_vec(char *s)
 	char		**sub;
 	t_vector	vec;
 
+	if (count_commas(s) != 2)
+		print_comma_error();
 	sub = ft_split(s, ',');
 	if (len_of(sub) != 3)
 	{
@@ -112,13 +113,11 @@ t_vector		check_normal(char *s)
 {
 	char	**sub;
 
+	if (count_commas(s) != 2)
+		print_comma_error();
 	sub = ft_split(s, ',');
-	if (len_of(sub) != 3)
-	{
-		ft_putstr_fd("Error\nWrong VECTOR NORMAL format\n", 2);
-		free_list(sub);
-		exit(-1);
-	}
+	if (len_of(sub) != 3 && free_list(sub))
+		print_normal_error();
 	if (valid_num(sub) == -1)
 	{
 		free_list(sub);

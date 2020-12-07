@@ -29,6 +29,8 @@ void		print_cyheigth_error();
 void		print_sqsize_error();
 void		print_colorformat_error();
 void		print_normalvalue_error();
+void		print_comma_error();
+void		print_normal_error(void);
 void		print_random_error();
 t_rgb		check_rgb(char *s);
 t_vector	check_vec(char *s);
@@ -36,6 +38,7 @@ void		print_rgb_error();
 t_vector	check_normal(char *s);
 int			valid_int(char **s);
 int			valid_num(char **s);
+int			count_commas(char *s);
 int			valid_single_num(char *s);
 int			valid_single_int(char *s);
 #endif

@@ -34,7 +34,7 @@ int		len_of(char **p)
 	return (i);
 }
 
-void	free_list(char **list)
+int		free_list(char **list)
 {
 	int i;
 
@@ -42,6 +42,7 @@ void	free_list(char **list)
 	while (list[i])
 		free(list[i++]);
 	free(list);
+	return (1);
 }
 
 int		valid_num(char **s)
