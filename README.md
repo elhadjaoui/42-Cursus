@@ -12,6 +12,7 @@ Netwhat | This project is an introduction to network problematics. | [![jaeskim'
 [Printf](https://github.com/elhadjaoui/42-Cursus/tree/main/ft_printf)|The aim of this project is to recode Printf cuz putnbr and putstr aren’t enough. | [![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/mel-hadj/ft_printf)](https://github.com/JaeSeoKim/badge42)
 [Ft_server](https://github.com/elhadjaoui/42-Cursus/tree/main/ft_server) | This is a System Administration subject. I discovered Docker and I  set up my first web server. | [![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/mel-hadj/ft_server)](https://github.com/JaeSeoKim/badge42)
 [miniRT](https://github.com/elhadjaoui/42-Cursus/tree/main/miniRT)| This project is an introduction to the beautiful world of Raytracing | [![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/mel-hadj/miniRT)](https://github.com/JaeSeoKim/badge42)
+[libasm](https://github.com/elhadjaoui/42-Cursus/tree/main/libasm)| The aim of this project is to get familiar with assembly language | [![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/mel-hadj/libasm)](https://github.com/JaeSeoKim/badge42)
 
 
 
