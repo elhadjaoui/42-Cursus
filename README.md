@@ -2,7 +2,7 @@
 
 [![jaeskim's 42 stats](https://badge42.herokuapp.com/api/stats/mel-hadj?privacyEmail=true)](https://github.com/JaeSeoKim/badge42)
 
-## Porjects done so far:
+## Projects done so far:
 
 Project | Description | Intra
 ------- | ----------- | -----
