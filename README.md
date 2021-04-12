@@ -14,7 +14,7 @@ Netwhat | This project is an introduction to network problematics. | [![jaeskim'
 [miniRT](https://github.com/elhadjaoui/42-Cursus/tree/main/miniRT)| This project is an introduction to the beautiful world of Raytracing | [![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/mel-hadj/miniRT)](https://github.com/JaeSeoKim/badge42)
 [libasm](https://github.com/elhadjaoui/42-Cursus/tree/main/libasm)| The aim of this project is to get familiar with assembly language | [![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/mel-hadj/libasm)](https://github.com/JaeSeoKim/badge42)
 [ft_services](https://github.com/elhadjaoui/42-Cursus/tree/main/ft_services)| Ft_services will introduce you to Kubernetes. You will discover cluster management and
-deployment with Kubernetes. You will virtualize a network and do "clustering". | [![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/mel-hadj/ft_services)](https://github.com/JaeSeoKim/badge42)
+deployment with Kubernetes. You will virtualize a network and do "clustering".  | [![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/mel-hadj/ft_services)](https://github.com/JaeSeoKim/badge42)
 
 
 
