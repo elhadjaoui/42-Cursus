@@ -11,10 +11,10 @@ mv phpMyAdmin-5.0.1-all-languages/* /var/www/html/phpmyadmin
 ## WORDPRESS
 #
 wget http://wordpress.org/latest.tar.gz
- tar -xvf latest.tar.gz
- mv wordpress /var/www/html/
- mv wp-config.php /var/www/html/wordpress/
- #
+tar -xvf latest.tar.gz
+mv wordpress /var/www/html/
+mv wp-config.php /var/www/html/wordpress/
+#
 ## MYSQL
 #
 wget https://dev.mysql.com/get/mysql-apt-config_0.8.13-1_all.deb
