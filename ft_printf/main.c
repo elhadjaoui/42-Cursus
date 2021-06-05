@@ -7,5 +7,8 @@ int main ()
    ft_printf("\n");
      int b = printf(S);
      printf("\n\n%d -- %d\n",a,b);
+	 while(1)
+	 {
+	 }
 return 0;
 }
